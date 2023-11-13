@@ -232,10 +232,10 @@ export const decisions = {
   // utils
   queries: {
     screens: {
-      xsmall: `max-width: ${choices.screens.max.xs}`,
-      small: `max-width: ${choices.screens.max.sm}`,
-      mobile: `max-width: ${choices.screens.max.lg}`,
-      desktop: `min-width: ${choices.screens.lg}`,
+      xsmall: choices.screens.max.xs,
+      small: choices.screens.max.sm,
+      mobile: choices.screens.max.lg,
+      desktop: choices.screens.lg,
     },
   },
 };
